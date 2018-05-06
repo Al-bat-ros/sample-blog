@@ -11,6 +11,7 @@ class ArticlesController < ApplicationController
       else
         render action: 'new'
       end
+      #вывод передоваемой инфы в представление
     #render plain: params[:article].inspect
   end
 
